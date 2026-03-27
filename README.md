@@ -1,5 +1,10 @@
+# DATE : 19/03/2026
 # EXPT.NO.10-IMPLEMENTATION-OF-ENCRYPTION-AND-DECRYPTION
+## NAME: Rabin R
+## REG NO: 212223060215
+
 # AIM:
+
 To implement encryption and decryption using C program.
 
 # EQUIPMENTS REQUIRED:
@@ -7,14 +12,34 @@ To implement encryption and decryption using C program.
 PC with Linux operating system
 
 # PROCEDURE:
-1] Open code blocks and type the program for encryption and decryption. 2] Save the program using extension .c
+
+1] Open code blocks and type the program for encryption and decryption.
+
+2] Save the program using extension.c
+
 3]	Run the program using build and run.
-4]	Prime number is given as input. If it is not a prime number then wrong input is displayed. 5] Then a message is entered.
+
+4]	Prime number is given as input. If it is not a prime number then wrong input is displayed.
+
+5] Then a message is entered.
+
 6]	The encrypted form of the message is displayed.
-7]	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
+
+7]	The decrypted form is also displayed as final output.
+
+8] Thus the output is obtained.
 
 # PROGRAM:
-#include<stdio.h> #include<stdlib.h> #include<math.h> #include<string.h>
+
+~~~
+#include<stdio.h>
+
+#include<stdlib.h>
+
+#include<math.h>
+
+#include<string.h>
+
 longintp,q,n,t,flag,e[100],d[100],temp[100],j,m[100],en[100],i; char msg[100];
 int prime(longint); void ce();
 long int cd(longint); void encrypt();
@@ -103,14 +128,13 @@ for(i=0;m[i]!=-1; i++
 printf("%c",m[i]);
 }
 
-
-
-
+~~~
 
 # OUTPUT:
 
- 
+![WhatsApp Image 2026-03-27 at 8 26 46 PM](https://github.com/user-attachments/assets/e5ba6c11-3681-4f89-9eab-d20983dd91b5)
 
 
 # RESULT:
+
 Thus the encryption and decryption is implemented and the output is obtained and verified successfully.
